@@ -58,7 +58,7 @@ class HabitDbHelper(context: Context) :
             null,
             null,
             null,
-            "$COLUMN_TITLE ASC"
+            "$COLUMN_TITLE COLLATE NOCASE ASC"
         )
 
         with(cursor) {
